@@ -1,4 +1,6 @@
-Socket-io-chat-app
+# Socket-io-chat-app
+
+This is a Socket.io chat application. The application uses command line commands to comminicate.
 
 ## Available Scripts
 
