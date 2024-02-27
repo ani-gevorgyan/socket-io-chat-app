@@ -1,6 +1,6 @@
 # Socket-io-chat-app
 
-This is a Socket.io chat application. The application uses command line commands to comminicate.
+This is a Socket.io chat application. The application uses command line commands to communicate.
 
 ## Available Scripts
 
@@ -40,19 +40,19 @@ To start the client.<br />
 One should be in `client` directory.<br />
 `cd client` command will set the current directory to be the `client` directory.<br />
 
-In client directory run `node client ${Bearer auth_token}`.<br />
+In client directory run `node client Bearer ${auth_token}`.<br />
 
-Put the authorization token obtained from login endpoint insead of `auth_token` as mentioned above. <br />
+Put the authorization token obtained from login endpoint instead of `auth_token` as mentioned above. <br />
 
 This will handle the authorized access to the chat app. <br />
 
 ### Command Line chat commands
 
 
-Type `joinRoom ${chatroomId}` if you want to join a room.<br />
-You can get the list of all the chatrooms by following the correspoding endpoing provided in the postman link.<br />
+Type `joinRoom ${chatroomId}` to join a room to be able to chat.<br />
+You can get the list of all the chatrooms by requesting the corresponding endpoint provided in the postman link.<br />
 
-Type `chatroomMessage ${message}` if you want to send a message.<br />
+Type `chatroomMessage ${message}` if you want to send a message in the chatroom.<br />
 Insert the desired message instead of `${message}`.<br />
 
 Type `leaveRoom` to leave the current chatroom. <br />
@@ -60,6 +60,6 @@ Type `leaveRoom` to leave the current chatroom. <br />
 
 ## Postman link
 
-#### 
+#### https://www.postman.com/gold-space-386125/workspace/socket-io-chat-app
 
 
